@@ -22,7 +22,13 @@ pipeline {
                     }
 
                     // Run tests
-                    btc.rbtExecution {}
+                    btc.rbtExecution {
+                        createReport = true
+                    }
+                
+                    btc.codeAnalysisReport {
+                        useCase = 'RBT'
+                    }
                 
                     // BTC: close EmbeddedPlatform and store reports
                     btc.wrapUp {}
