@@ -3,8 +3,8 @@
 /********************** Global variables **********************/
 t_stData stDataGlb = {
 	NULL,     						 //Input#1
-	{0, 0, 0, 0, 0, 0, 0, 0, 0, 0},  //Calibration#1 
-	{0, 0, 0, 0, 0, 0, 0, 0, 0, 0}   //Calibration#2 
+	{ 1,  3,  3,  7,  4,  2, 0, 0, 0, 0},  //Calibration#1 
+	{-1, -3, -3, -7, -4, -2, 0, 0, 0, 0}   //Calibration#2 
 };
 
 extern t_enumSelect enSelArrGlb;  	 //Input#2
